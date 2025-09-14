@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Filter Gallery</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>🎨 Image Filter Gallery</h1>
+  
+  <div class="upload-box">
+    <input type="file" id="upload" accept="image/*">
+  </div>
+
+  <div class="image-container">
+    <img id="image" src="" alt="Upload an image to see preview" hidden>
+    <canvas id="canvas" hidden></canvas>
+  </div>
+
+  <div class="controls">
+    <button onclick="applyFilter('none')">Original</button>
+    <button onclick="applyFilter('grayscale(100%)')">Grayscale</button>
+    <button onclick="applyFilter('sepia(100%)')">Sepia</button>
+    <button onclick="applyFilter('blur(3px)')">Blur</button>
+    <button onclick="applyFilter('brightness(1.5)')">Bright</button>
+    <button onclick="applyFilter('contrast(200%)')">High Contrast</button>
+  </div>
+
+  <div class="download-box">
+    <button onclick="downloadImage()">⬇️ Download Image</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
