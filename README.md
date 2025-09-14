@@ -1,13 +1,33 @@
-Image Filter Gallery is a simple web project built using HTML, CSS, and JavaScript where users can upload an image, apply cool filters like grayscale, sepia, blur, brightness, and contrast, preview the changes instantly, and download the edited image as PNG.
-🚀 How to Use
+# 🎨 Image Filter Gallery  
 
-1. Open the project in your browser.
+**Image Filter Gallery** is a fun and lightweight web app built with **HTML, CSS, and JavaScript**.  
 
+It allows users to:  
 
-2. Upload an image of your choice.
+✨ Upload an image  
+✨ Apply cool filters (Grayscale, Sepia, Blur, Brightness, Contrast)  
+✨ Preview edits instantly  
+✨ Download the edited image as PNG  
 
+A simple yet powerful project that shows the magic of **JavaScript + Canvas API** in action. 🚀  
 
-3. Click on any filter button to preview effects.
+## 🚀 How to Use  
+1️⃣ Open the project in your browser.  
+2️⃣ Upload any image of your choice.  
+3️⃣ Click on a filter button → Preview changes live.  
+4️⃣ Tap **Download** to save your filtered image as PNG. 🎉  
 
+## 🔮 Future Upgrades  
+💡 Add sliders for brightness, contrast, and blur intensity.  
+💡 Introduce new filters (invert, hue-rotate, saturation).  
+💡 Drag & drop image upload for better UX.  
+💡 Dark/light mode support.  
 
-4. Hit Download to save your filtered image as PNG.
+## 🛠️ Tech Stack  
+- **HTML5** – Structure  
+- **CSS3** – Styling & Layout  
+- **JavaScript (Canvas API)** – Image filters & download  
+
+👩‍💻 **Author**: *Siva Durshika G*  
+🎓 B.Tech IT (2023–2027)  
+🚀 Passionate Innovator | Hackathon Enthusiast | Web Developer  
